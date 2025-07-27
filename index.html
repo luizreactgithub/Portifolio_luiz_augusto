@@ -1,0 +1,2503 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luiz Augusto Cardoso - Portifólio</title>
+
+<!-- aqui importo o bootstrap-->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="anim_second.js"></script>
+<script src="anim.js"></script>
+
+
+<style>
+
+@font-face {
+  font-family:Minecraftia;
+  src: url('Minecraftia.ttf') format('truetype')
+}
+
+
+body{
+
+	      background:url("./tec.png")left center  no-repeat fixed; 
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+        background-size: cover;
+
+
+}
+
+
+
+/*******   anim neurons *****************************************************************************************************/
+
+
+
+canvas#canvas{
+position: relative;
+ opacity: 0.5;
+top:10px;
+margin-bottom:-700px;
+
+
+}
+
+
+canvas#canvas_2{
+position: relative;
+opacity: 0.5;
+top:-100px;
+margin-bottom:0px;
+margin-left:-30px;
+}
+
+
+
+/*********************************************************************************************************************/
+
+img#brazil{                         
+
+    cursor: pointer;
+    width:20px;
+  
+}img#brazil:hover{
+    opacity:0.5;
+}
+
+img#eua{
+
+cursor: pointer;
+width:20px;
+  
+}img#eua:hover{
+    opacity:0.5;
+}
+
+
+li{
+
+font-size:15pt;
+cursor: pointer;
+
+}
+
+
+span{
+  
+font-size:12pt;
+
+}
+
+a#lang{
+
+color:rgb(205, 53, 53) !important;
+
+}
+
+button#hambur{
+
+  width  : 60px;
+  height : 60px;
+
+}
+
+span#barras{
+
+  
+  width  : 35px;
+  height : 30px;
+
+}
+
+ img#foto {
+
+
+background-color: black;
+width:300px;
+height:300px;
+border-radius:250px;
+margin-top:42%;
+margin-left:5%;
+
+}
+
+p#name{
+
+  color:white;
+  font-family: Minecraftia;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-size:18pt;
+  margin-left:0%;
+  width:530px;
+  height:70px;
+  margin-top:10%;
+  border: solid 1px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  
+
+}
+
+p#dev{
+
+color:white;
+font-family: Minecraftia;
+letter-spacing: 2px;
+word-spacing: 4px;
+margin-top: 0vh;
+font-size:18pt;
+padding-right:40%;
+width:700px;
+height:330px;
+margin-top:30%;
+border: solid 1px;
+border-left: none;
+border-right: none;
+border-top: none;
+
+
+}
+
+img#skills{
+
+width:50px;
+height:50px;
+border-radius:250px;
+
+}
+
+h1#skillhabili{
+
+
+margin-left:-6%;
+margin-top:30%;
+
+}
+
+
+p#t_html{
+  margin-left:50px;
+}
+
+p#t_css{
+  margin-left:18px;
+}
+
+p#t_js{
+  margin-left:35px;
+}
+
+p#t_php{
+  margin-left:50px;
+}
+
+p#t_sql{
+  margin-left:35px;
+}
+
+p#t_react{
+  margin-left:20px;
+
+}
+
+p#t_py{
+  margin-left:40px;
+}
+
+p#t_node{
+  margin-left:36px;
+}
+
+p#t_unity{
+  margin-left:50px;
+}
+
+div#row{
+
+margin-left:50px;
+
+
+}
+
+div#row2{
+
+margin-left:50px;
+
+}
+
+/*footer***********************************************************************************************************************/
+
+div#row8 h2#copy{
+
+font-size:12pt;
+font-weight: lighter;
+color: aliceblue;
+width:600px;
+margin-left: -130%;
+margin-top:55%;
+
+}
+
+
+div#row8{
+
+  height:180px;
+}
+
+
+/***sites************************************************************************************************************************/
+
+div#proje{
+
+color: aliceblue;
+height:40px; 
+margin-top:3%;
+margin-left:6%;
+
+}
+
+
+div#row3{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#row3 img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+img#jlesquerda:hover{
+
+  opacity: 0.6;
+
+}
+
+img#jldireita:hover{
+
+  opacity:0.6;
+
+}
+
+div#row3 p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:4.5%;
+
+}
+
+div#row3 a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#row3 img#jldireita{
+
+position:relative;
+width :50px;
+top: 240px;
+left:854px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#row3 img#jlesquerda{
+
+position:relative;
+width :50px;
+top:240px;
+left:92px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+/***********************************************************************************************************************/
+
+/* outros sites */
+
+
+div#ux{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#ux img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+img#uxesquerda:hover{
+
+  opacity: 0.6;
+
+}
+
+img#uxdireita:hover{
+
+  opacity:0.6;
+
+}
+
+div#ux p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:4.5%;
+
+}
+
+div#ux a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#ux img#uxdireita{
+
+position:relative;
+width :50px;
+top: 240px;
+left:854px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#ux img#uxesquerda{
+
+position:relative;
+width :50px;
+top:240px;
+left:92px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+
+div#dev{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#dev img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+img#devesquerda:hover{
+
+  opacity: 0.6;
+
+}
+
+img#devdireita:hover{
+
+  opacity:0.6;
+
+}
+
+div#dev p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:4.5%;
+
+}
+
+div#dev a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#dev img#devdireita{
+
+position:relative;
+width :50px;
+top: 240px;
+left:854px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#dev img#devesquerda{
+
+position:relative;
+width :50px;
+top:240px;
+left:92px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+
+
+div#ag{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#ag img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+img#agesquerda:hover{
+
+  opacity: 0.6;
+
+}
+
+img#agdireita:hover{
+
+  opacity:0.6;
+
+}
+
+div#ag p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:4.5%;
+
+}
+
+div#ag a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#ag img#agdireita{
+
+position:relative;
+width :50px;
+top: 240px;
+left:854px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#ag img#agesquerda{
+
+position:relative;
+width :50px;
+top:240px;
+left:92px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+
+
+div#vc{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#vc img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+img#vcesquerda:hover{
+
+  opacity: 0.6;
+
+}
+
+img#vcdireita:hover{
+
+  opacity:0.6;
+
+}
+
+div#vc p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:4.5%;
+
+}
+
+div#vc a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#vc img#vcdireita{
+
+position:relative;
+width :50px;
+top: 240px;
+left:854px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#vc img#vcesquerda{
+
+position:relative;
+width :50px;
+top:240px;
+left:92px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+
+
+div#ball{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#ball img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+img#ballesquerda:hover{
+
+  opacity: 0.6;
+
+}
+
+img#balldireita:hover{
+
+  opacity:0.6;
+
+}
+
+div#ball p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:4.5%;
+
+}
+
+div#ball a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#ball img#balldireita{
+
+position:relative;
+width :50px;
+top: 240px;
+left:854px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#ball img#ballesquerda{
+
+position:relative;
+width :50px;
+top:240px;
+left:92px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+
+
+div#sft{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#sft img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+img#sftesquerda:hover{
+
+  opacity: 0.6;
+
+}
+
+img#sftdireita:hover{
+
+  opacity:0.6;
+
+}
+
+div#sft p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:4.5%;
+
+}
+
+div#sft a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#sft img#sftdireita{
+
+position:relative;
+width :50px;
+top: 240px;
+left:854px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#sft img#sftesquerda{
+
+position:relative;
+width :50px;
+top:240px;
+left:92px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+/* Contatos *******************************************************************************************************************************/
+  
+
+
+div#row4{
+
+height:0px;
+margin-left: 12%;
+
+
+}
+
+
+div#row4 img{
+
+  width:135px;
+  height:136px ;
+  margin-top:50%;
+  cursor: pointer;
+
+}
+
+
+div#row4 img:hover{
+
+  opacity:0.6;
+}
+
+div#row6 h1#skill{
+
+color: aliceblue;
+margin-top: 20%;
+margin-left:18%;
+}
+
+
+div#row6{
+
+   margin-top:-4%; 
+}
+
+
+div#row4 p#what{
+
+  font-size:12pt;
+  color: aliceblue;
+  word-break: break-all;
+  margin-top:0%;
+  margin-left:8%;
+
+}
+
+
+
+div#row4 p#gmail{
+
+  font-size:12pt;
+  color: aliceblue;
+  word-break: break-all;
+  margin-top:0%;
+  margin-left:14%;
+
+}
+
+
+div#row4 p#insta{
+
+  font-size:12pt;
+  color: aliceblue;
+  word-break: break-all;
+  margin-top:0%;
+  margin-left:9%;
+
+}
+
+
+/*******************************************************************************************************************************************/
+
+/* Telas médias */
+
+
+@media (max-width: 1066px) and (min-width: 668px){
+
+p#dev{
+
+  width:400px;
+}
+
+
+/*******   anim neurons *****************************************************************************************************/
+
+
+
+
+canvas#canvas{
+position: relative;
+ opacity: 0.5;
+top:-1190px;
+margin-bottom:-1900px;
+
+
+}
+
+
+
+canvas#canvas_2{
+position: relative;
+opacity: 0.5;
+top:-80px;
+margin-bottom:0px;
+margin-left:-30px;
+}
+
+
+
+/********************************************************************************************************************************/
+
+  /*footer***********************************************************************************************************************/
+
+div#row8 h2#copy{
+
+font-size:12pt;
+font-weight: lighter;
+color: aliceblue;
+width:600px;
+margin-left: -250%;
+margin-top:25%;
+
+}
+
+div#row8{
+
+  height:120px;
+
+}
+
+
+/* Contatos *******************************************************************************************************************************/
+
+
+div#row4{
+
+height:600px;
+margin-left: 8%;
+margin-top:-550px !important;
+}
+
+
+div#row6{
+
+   margin-top:-8%; 
+}
+
+
+div#row4 p#what{
+
+  font-size:12pt;
+  color: aliceblue;
+  word-break: break-all;
+  margin-top:0%;
+  margin-left:13%;
+
+}
+
+
+
+div#row4 p#gmail{
+
+  font-size:12pt;
+  color: aliceblue;
+  word-break: break-all;
+  margin-top:0%;
+  margin-left:20%;
+
+}
+
+
+div#row4 p#insta{
+
+  font-size:12pt;
+  color: aliceblue;
+  word-break: break-all;
+  margin-top:0%;
+  margin-left:13%;
+
+}
+
+/***************************************************************************************************************************************************************/
+
+
+div#proje{
+
+color: aliceblue;
+height:50px; 
+margin-top:10%;
+margin-left:-10%;
+width:100px;
+
+}
+
+
+div#row3{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#row3 img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+
+div#row3 p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:0%;
+
+}
+
+
+div#row3 img#jldireita{
+
+position:relative;
+width :50px;
+top: 280px;
+left:374px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#row3 img#jlesquerda{
+
+position:relative;
+width :50px;
+top:280px;
+left:-372px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+/***********************************************************************************************************************/
+
+/* outros sites */
+
+
+
+div#ux{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#ux img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+
+div#ux p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:0%;
+
+}
+
+
+div#ux img#uxdireita{
+
+position:relative;
+width :50px;
+top: 280px;
+left:374px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#ux img#uxesquerda{
+
+position:relative;
+width :50px;
+top:280px;
+left:-372px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+div#dev{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#dev img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+
+div#dev p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:0%;
+
+}
+
+
+div#dev img#devdireita{
+
+position:relative;
+width :50px;
+top: 280px;
+left:374px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#dev img#devesquerda{
+
+position:relative;
+width :50px;
+top:280px;
+left:-372px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+
+
+div#ag{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#ag img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+
+div#ag p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:0%;
+
+}
+
+
+div#ag img#agdireita{
+
+position:relative;
+width :50px;
+top: 280px;
+left:374px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#ag img#agesquerda{
+
+position:relative;
+width :50px;
+top:280px;
+left:-372px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+
+
+div#vc{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#vc img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+
+div#vc p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:0%;
+
+}
+
+
+div#vc img#vcdireita{
+
+position:relative;
+width :50px;
+top: 280px;
+left:374px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#vc img#vcesquerda{
+
+position:relative;
+width :50px;
+top:280px;
+left:-372px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+
+
+
+
+div#ball{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#ball img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+
+div#ball p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:0%;
+
+}
+
+
+div#ball img#balldireita{
+
+position:relative;
+width :50px;
+top: 280px;
+left:374px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#ball img#ballesquerda{
+
+position:relative;
+width :50px;
+top:280px;
+left:-372px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+
+
+div#sft{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#sft img{
+
+padding:80px;
+width :850px;
+height:500px;
+
+
+}
+
+
+div#sft p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:600px;
+  word-break: break-all;
+  margin-top:-3%;
+  margin-left:0%;
+
+}
+
+
+div#sft img#sftdireita{
+
+position:relative;
+width :50px;
+top: 280px;
+left:374px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#sft img#sftesquerda{
+
+position:relative;
+width :50px;
+top:280px;
+left:-372px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+/*******************************************************************************************************************************/
+
+
+}
+
+
+
+/* MOBILE ADJUSTMENT*/
+@media (max-width: 668px) and (min-width: 300px){
+ 
+
+
+
+/*******   anim neurons *****************************************************************************************************/
+
+
+
+
+canvas#canvas{
+position: relative;
+ opacity: 0.5;
+top:-88px;
+margin-bottom:-800px;
+
+}
+
+
+canvas#canvas_2{
+position: relative;
+ opacity: 0.5;
+top:-168px;
+margin-bottom:-800px;
+margin-left:-20px;
+
+}
+
+
+/*********************************************************************************************************************/
+
+/*footer***********************************************************************************************************************/
+
+div#row8 h2#copy{
+
+font-size:10pt;
+font-weight: lighter;
+color: aliceblue;
+width:320px;
+margin-left:4%;
+margin-top:5%;
+
+}
+
+
+div#row8{
+
+  margin-top:0%;
+  height:80px;
+
+}
+
+div#contatos{
+height:652px !important;
+
+}
+
+
+
+/* Contatos *******************************************************************************************************************************/
+
+
+div#row4{
+margin-top: -100px !important;
+height:600px;
+margin-left:30%;
+
+
+}
+
+
+div#row6 h1#skill{
+
+color: rgb(3, 119, 221);
+margin-top: 15%;
+margin-left:38%;
+}
+
+
+div#row6{
+
+   margin-top:-16%; 
+  padding-bottom: 20%;
+
+}
+
+
+
+div#row4 img{
+
+  width:115px;
+  height:116px ;
+  margin-top:20%;
+  margin-left: 3%;
+  cursor: pointer;
+
+}
+
+div#row4 p#what{
+
+  font-size:12pt;
+  color: aliceblue;
+  word-break: break-all;
+  margin-top:0%;
+  margin-left:12%;
+
+}
+
+
+
+div#row4 p#gmail{
+
+  font-size:12pt;
+  color: aliceblue;
+  word-break: break-all;
+  margin-top:0%;
+  margin-left:14%;
+
+}
+
+
+div#row4 p#insta{
+
+  font-size:12pt;
+  color: aliceblue;
+  word-break: break-all;
+  margin-top:0%;
+  margin-left:12%;
+
+}
+
+
+/*******************************************************************************************************************************************/
+
+
+
+
+/*sites*/
+
+
+
+div#proje{
+
+color: aliceblue;
+height:120px; 
+margin-top:10%;
+margin-left:-3%;
+width:100px;
+
+}
+
+
+div#row3{
+
+padding:70px;  
+margin-left:-5%;
+
+}
+
+div#row3 img{
+
+padding:30px;
+width :650px;
+height:260px;
+
+
+}
+
+div#row3 p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:300px;
+  margin-left:-3%;
+  word-break: break-all;
+
+}
+
+div#row3 a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#row3 img#jldireita{
+
+position:relative;
+width :50px;
+top: 10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#row3 img#jlesquerda{
+
+position:relative;
+width :50px;
+top:10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+/***********************************************************************************************************************/
+
+/* outros sites */
+
+
+
+div#ux{
+
+padding:0px;  
+margin-left:-5%;
+
+}
+
+div#ux img{
+
+padding:30px;
+width :650px;
+height:260px;
+
+
+
+}
+
+div#ux p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:300px;
+  margin-left:3%;
+  word-break: break-all;
+
+}
+
+div#ux a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#ux img#uxdireita{
+
+position:relative;
+width :50px;
+top: 10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#ux img#uxesquerda{
+
+position:relative;
+width :50px;
+top:10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+
+div#dev{
+
+padding:0px;  
+margin-left:-5%;
+
+
+}
+
+div#dev img{
+
+padding:30px;
+width :650px;
+height:260px;
+
+
+
+}
+
+div#dev p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:300px;
+  margin-left:3%;
+  word-break: break-all;
+
+}
+
+div#dev a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#dev img#devdireita{
+
+position:relative;
+width :50px;
+top: 10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#dev img#devesquerda{
+
+position:relative;
+width :50px;
+top:10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+div#ag{
+
+padding:0px;  
+margin-left:-5%;
+
+}
+
+div#ag img{
+
+padding:30px;
+width :650px;
+height:260px;
+
+
+
+}
+
+div#ag p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:300px;
+  margin-left:3%;
+  word-break: break-all;
+
+}
+
+div#ag a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#ag img#agdireita{
+
+position:relative;
+width :50px;
+top: 10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#ag img#agesquerda{
+
+position:relative;
+width :50px;
+top:10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+
+
+div#vc{
+
+padding:0px;  
+margin-left:-5%;
+
+}
+
+div#vc img{
+
+padding:30px;
+width :650px;
+height:260px;
+
+
+
+}
+
+div#vc p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:300px;
+  margin-left:3%;
+  word-break: break-all;
+
+}
+
+div#vc a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#vc img#vcdireita{
+
+position:relative;
+width :50px;
+top: 10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#vc img#vcesquerda{
+
+position:relative;
+width :50px;
+top:10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+
+
+
+div#ball{
+
+padding:0px;  
+margin-left:-5%;
+padding-bottom:100px;
+}
+
+div#ball img{
+
+padding:30px;
+width :650px;
+height:260px;
+
+
+
+}
+
+div#ball p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:300px;
+  margin-left:3%;
+  word-break: break-all;
+
+}
+
+div#ball a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#ball img#balldireita{
+
+position:relative;
+width :50px;
+top: 10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#ball img#ballesquerda{
+
+position:relative;
+width :50px;
+top:10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+
+
+div#sft{
+
+padding:0px;  
+margin-left:-5%;
+
+}
+
+div#sft img{
+
+padding:30px;
+width :650px;
+height:260px;
+
+
+
+}
+
+div#sft p{
+
+  font-size:12pt;
+  color: aliceblue;
+  width:300px;
+  margin-left:3%;
+  word-break: break-all;
+
+}
+
+div#sft a{
+
+  color:rgb(215, 116, 116) !important;
+}
+
+div#sft img#sftdireita{
+
+position:relative;
+width :50px;
+top: 10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+
+div#sft img#sftesquerda{
+
+position:relative;
+width :50px;
+top:10px;
+left:0px;
+height:40px;
+border-style:solid;
+border-color:black;
+border-width:1px;
+padding:4px;
+
+}
+
+/*******************************************************************************************************************************/
+
+
+div#proje h1#skillproject{
+
+  margin-top: 80%;
+  margin-left:-10%;
+}
+
+
+body{
+
+  overflow-x: hidden;
+
+}
+
+p#dev{
+
+color:white;
+font-family: Minecraftia;
+margin-top: 0vh;
+font-size:18pt;
+padding-right:20%;
+width:300px;
+height:350px;
+margin-top:30%;
+border: solid 1px;
+border-left: none;
+border-right: none;
+border-top: none;
+
+
+}
+
+
+img#foto {
+
+
+background-color: black;
+width:300px;
+height:300px;
+border-radius:250px;
+margin-top:42%;
+margin-left:1%;
+
+}
+
+p#name{
+
+  color:white;
+  font-family: Minecraftia;
+  font-size:15pt;
+  margin-left:0%;
+  width:300px;
+  height:70px;
+  margin-top:10%;
+  border: solid 1px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  
+
+}
+
+
+div#row img{
+
+width:80px;
+height:80px;
+
+}
+
+div#row2 img{
+
+width:80px;
+height:80px;
+
+}
+
+div#row{
+
+  margin-left: 34%;
+  margin-top:-50px;
+
+
+}
+
+div#row2{
+
+  margin-left: 34%;
+  margin-top:-100px;
+
+}
+
+div#row3{
+
+  padding:0px;  
+ 
+}
+
+h1#skillhabili{
+
+margin-top:100px;
+margin-left:-9%;
+
+}
+
+
+p#t_html{
+  margin-left:25px;
+}
+
+p#t_css{
+  margin-left:-10px;
+}
+
+p#t_js{
+  margin-left:10px;
+}
+
+p#t_php{
+  margin-left:25px;
+}
+
+p#t_sql{
+  margin-left:15px;
+}
+
+p#t_react{
+  margin-left:0px;
+}
+
+p#t_py{
+  margin-left:15px;
+}
+
+p#t_node{
+  margin-left:18px;
+}
+
+p#t_ps{
+  margin-left:-20px;
+}
+
+p#t_unity{
+  margin-left:20px;
+}
+
+
+div#row6 h1#skill{
+
+
+  font-size:25pt !important;
+  margin-left:110px;
+}
+
+
+    }
+
+  
+  
+
+</style>
+
+</head>
+<html>
+<body>
+
+    <nav  class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"  >
+         
+        <div id="menu" class="container-fluid" >
+          <a class="navbar-brand" id="port" href="#">Portifólio</a>
+          
+          <button id="hambur" class="navbar-toggler " type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span id="barras" class="navbar-toggler-icon"></span>
+          </button>
+          
+            <div  class="offcanvas offcanvas-end text-bg-dark"  tabindex="-1" id="offcanvasDarkNavbar"  style="width: 200px; opacity:0.8;" data-bs-backdrop="false"  aria-labelledby="offcanvasDarkNavbarLabel">
+           
+                <div  class="offcanvas-header">
+             
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            
+            </div>
+            
+            <div  class="offcanvas-body">
+                <ul  class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                
+                <li   class="nav-item">
+                  <a class="nav-link"   onclick="home()" >Home</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link"   id="habili" onclick="skill()" >Habilidades</a>
+                </li>
+                 
+                <li class="nav-item">
+                    <a class="nav-link" id="projeto" onclick="projects()" >Projetos</a>
+                </li>
+                   
+                <li class="nav-item">
+                    <a  class="nav-link" id="contact" onclick="contact()">Contato</a>
+                 </li>
+
+
+                 <li class="nav-item">
+                    <a  id="lang" class="nav-link"  href="#">Liguagem :</a>
+                 </li>
+ 
+                          
+                <li id="librazil" class="nav-item p-2">
+                   <img  id="brazil" src="brasill.jpg" /> <span> Pt-br</span>
+                </li>
+                 
+                          
+                <li id="lieua" class="nav-item p-2">
+                    <img id="eua" src="euaaa.jpg"  /> <span> Eng </span>
+                </li>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+       
+
+    <!-- one section  -->
+
+    <div id="homes" class="container-fluid mt-0">
+
+    <div class="row">
+      <canvas id="canvas"></canvas>
+      <div class= " col-sm-6 p-3 bg-black text-white d-flex justify-content-center"      style="height:715px; ">
+       
+        
+      <div>    <img src="foto.png" id="foto" class="img-fluid" alt="Responsive image"  style=" position: relative;" />      <p id="name" style=" position: relative;" >Luiz Augusto Cardoso</p> </div>               
+     
+  
+      </div>
+     </canvas>
+      <div class="col-sm-6 p-3 bg-dark d-flex text-white"    style="height:715px;">
+
+
+          <p id="dev"  style=" position: relative;" >Desenvolvedor Full-Stack -  Desenvolvimento de Websites, Aplicativos e Análise de dados</p>
+
+
+       </div>
+
+      </div>
+
+    </div>
+
+      <!-- two section  -->
+
+      <!-- HABILIDADES TEXTO-->
+      <div id="hability" class="container-fluid mt-0 " style=" padding-bottom: 50px; background-color: aliceblue;">
+
+
+        <div id="row" class="row d-flex d-flex justify-content-center" > 
+      
+        <div class="col-md-2 col-md-offset-1">  <h1 id="skillhabili">Habilidades</h1> </div> 
+     
+        </div> 
+      
+      </div>
+      
+
+
+
+
+ <div class="container-fluid mt-0 " style=" padding: 40px; padding-bottom: 100px; background-color: aliceblue;" >
+
+
+  <div id="row" class="row d-flex d-flex justify-content-center" > 
+
+  <div class="col-md-2 col-md-offset-1"> <img src="html.png"  class="img-fluid" alt="Responsive image"/>   <p id="t_html">Html</p> </div> 
+  <div class="col-md-2">                 <img src="css.png"  class="img-fluid" alt="Responsive image"/>  <p   id="t_css">Css (bootstrap)</p></div> 
+  <div class="col-md-2">                 <img src="javas.png"  class="img-fluid" alt="Responsive image"/>  <p id="t_js">Javascript</p></div> 
+  <div class="col-md-2">                 <img src="php.png"  class="img-fluid" alt="Responsive image"/>  <p id="t_php">PHP</p></div> 
+  <div class="col-md-2">                 <img src="my sql.png"  class="img-fluid" alt="Responsive image"/>  <p id="t_sql">My SQL</p></div> 
+
+  </div> 
+
+</div>
+
+
+<div class="container-fluid mt-0 " style=" padding: 40px; padding-bottom: 100px; background-color: aliceblue;">
+
+
+<div id="row2" class="row d-flex d-flex justify-content-center" > 
+
+  <div class="col-md-2 col-md-offset-1"> <img src="react native.png"  class="img-fluid" alt="Responsive image"/>  <p id="t_react">React Native</p> </div> 
+  <div class="col-md-2">                 <img src="python.png"  class="img-fluid" alt="Responsive image"/>  <p id="t_py">Python</p></div> 
+  <div class="col-md-2">                 <img src="node.png"  class="img-fluid" alt="Responsive image"/>  <p id="t_node">Node js</p></div> 
+  <div class="col-md-2">                 <img src="ps.png"  class="img-fluid" alt="Responsive image"/>  <p id="t_ps">Photoshop (Edição)</p></div> 
+  <div class="col-md-2">                 <img src="unity.png"  class="img-fluid" alt="Responsive image"/>  <p id="t_unity">Unity</p></div> 
+
+  </div> 
+
+</div>
+      
+
+    <!-- three section  -->
+
+
+     <div id="project" class="container-fluid mt-0">
+
+
+        <div  class="row d-flex d-flex justify-content-center" > 
+      
+        <div class="col-md-2 col-md-offset-1" id= "proje" >  <h1  id="skillproject"> Projetos </h1> </div> 
+     
+        </div> 
+      
+      </div>
+      
+      
+<div class="container-fluid mt-0 ">
+   <div id="row3" class="row d-flex d-flex justify-content-center" >
+         <img id="jlesquerda"    src="esquerda.png"   />     <img id="jldireita" src="direita.webp" />                 <img id="jlchange" src="img/jl (1).png"   class="img-fluid"   /> <p id="textjl" >Site feito com HTML, CSS e JavaScript. Elementos gráficos criados por mim. </br> Endereço: <a id="ancorjl" style="text-decoration: none;" href="https://luizreactgithub.github.io/Jl_Tecnology" target="_blank"> https://luizreactgithub.github.io/Jl_Tecnology                </a></p>    
+        </div>
+</div>
+    
+
+
+<div class="container-fluid mt-0">
+   <div id="ux" class="row d-flex d-flex justify-content-center"  >
+         <img id="uxesquerda"    src="esquerda.png" />     <img id="uxdireita" src="direita.webp" />     <img id="uxchange" src="img/ux (1).png" class="img-fluid"  />                <p id="textdevel" >Site responsivo feito com HTML, CSS e JavaScript. Elementos gráficos editados e criados por mim. Endereço :  <a  style="text-decoration: none;" href="https://luizreactgithub.github.io/JL_Uxguitar/" target="_blank">https://luizreactgithub.github.io/JL_Uxguitar/ </a></p> 
+        </div>
+</div>
+    
+
+
+<div class="container-fluid mt-0">
+   <div id="dev" class="row d-flex d-flex justify-content-center" >
+        <img id="devesquerda" src="esquerda.png" />       <img id="devdireita" src="direita.webp" />              <img id="jldevchange" src="img/jldev (1).png" class="img-fluid"   /> <p  id="textdevel2" >Site feito com HTML, CSS, JavaScript e PHP. Elementos gráficos feitos por </br>mim.Endereço :  <a  style="text-decoration: none;" href=" https://luizreactgithub.github.io/Jl-Developers/" target="_blank"> https://luizreactgithub.github.io/Jl-Developers/ </a></p>
+        </div>
+</div>
+    
+
+<div class="container-fluid mt-0">
+   <div id="sft" class="row d-flex d-flex justify-content-center" >
+                            <img id="sftesquerda"  src="esquerda.png" />       <img id="sftdireita" src="direita.webp" />               <img id="sftchange" src="img/sft (1).png"  class="img-fluid" /> <p id="textsinal" > Um site Institucional feito com wordpress, trabalhei com alguns plugins e fiz todo o design. Endereço:  <a  style="text-decoration: none;" href="https://sinalfort.com.br/" target="_blank">https://sinalfort.com.br/</a></p>
+  </div>
+</div>
+
+
+
+<div class="container-fluid mt-0">
+   <div id="ag" class="row d-flex d-flex justify-content-center">
+       <img id="agesquerda"    src="esquerda.png" />       <img id="agdireita" src="direita.webp" />                 <img id="agchange" src="img/ag (1).png"  class="img-fluid" /> <p id="textag">Site com sistema de login e compressão de imagens, feito em HTML, </br>CSS,JavaScript, PHP e MYSQL.lementos  gráficos criados por mim. </br>Endereço :  <a  style="text-decoration: none;" href="https://agwallpapers.coolpage.biz/" target="_blank"> https://agwallpapers.coolpage.biz/ </a></p>
+      </div>
+</div>
+    
+
+
+
+<div class="container-fluid mt-0">
+   <div id="vc" class="row d-flex d-flex justify-content-center" >
+      <img id="vcesquerda"    src="esquerda.png" />       <img id="vcdireita" src="direita.webp" />                 <img id="vcchange" src="img/vc (1).png"  class="img-fluid" /> <p id="textvc" >Um completo E-commerce feito com wordpress com plugins relacionados a</br>design e pagamentos. Endereço :  <a  style="text-decoration: none;" href="http://v-clothes.lovestoblog.com/" target="_blank">http://v-clothes.lovestoblog.com/ </a></p>
+  </div>
+</div>
+    
+
+
+
+<div class="container-fluid mt-0">
+   <div id="ball" class="row d-flex d-flex justify-content-center">
+                            <img id="ballesquerda"  src="esquerda.png" />       <img id="balldireita" src="direita.webp" />               <img id="ballchange" src="img/ball (1).png"  class="img-fluid" /> <p id="textball" >Um jogo mobile criado por mim e parceiros, usando Java e o framework Libgdx. Meu trabalho neste projeto: Trilha Sonora, Animações, Efeitos Sonoros.</br> Download : <a  style="text-decoration: none;" href="https://jeanjsc.itch.io/balltown-free" target="_blank"> https://jeanjsc.itch.io/balltown-free </a> </p>
+  </div>
+</div>
+
+      
+
+
+    <!-- four section  -->
+
+      <!-- contato TEXTO-->
+      <div id="contacts" class="container-fluid mt-5 ">
+
+
+        <div id="row6" class="row d-flex d-flex justify-content-center"  style="background-color:rgb(147, 144, 144);" > 
+      
+        <div class="col-md-2 col-md-offset-1">  <h1 id="skill" style="color: rgb(39, 39, 39);">Contato</h1> </div> 
+     
+        </div> 
+      
+      </div>
+      
+
+    <div id="contatos"  class="container-fluid mt-0 " style="background-color:rgb(147, 144, 144); height:618px; "  >
+
+     <canvas id="canvas_2">   </canvas>
+      <div id="row4" class="row d-flex d-flex justify-content-center" > 
+        
+    
+      <div class="col-md-3 col-md-offset-1" ><a href="https://www.instagram.com/_luiz_augusto_05/"  target="_blank" style="position: relative;" > <img src="img/what.png"   class="img-fluid" alt="Responsive image"/>  </a>      <p id="what">Whatsapp</p> </div> 
+      <div class="col-md-3">                <a href="https://www.instagram.com/_luiz_augusto_05/" target="_blank" style="position: relative;"> <img src="img/insta.png"  class="img-fluid" alt="Responsive image"/>  </a>      <p id="insta">Instagram</p>          </div> 
+      <div class="col-md-3">                <a href="https://mailto:luiz05august@gmail.com" target="_blank" style="position: relative;"> <img src="img/gmail.png"  class="img-fluid" alt="Responsive image"/>   </a>     <p id="gmail">G-mail</p> </div> 
+
+
+    
+      </div> 
+ 
+    </div>
+
+
+
+    
+    <!-- five section  -->
+
+
+    <div   class="container-fluid mt-" style="background-color: rgb(0, 0, 0);" >
+
+
+      <div id="row8" class="row d-flex d-flex justify-content-center"   > 
+        
+    
+      <div class="col-md-1 col-md-offset-1">      <h2 id="copy">© CopyRights - Desenvolvido por Luiz Augusto Cardoso</h2> </div> 
+    
+      </div> 
+    
+    </div>
+
+
+
+    
+    
+</body>
+<script src="port.js" ></script>
+</html>

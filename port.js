@@ -108,7 +108,7 @@ presentation.innerHTML="Full-Stack Developer - Website and Mobile app Developmen
 titlehabilidade.innerHTML="&nbsp &nbsp  Skills";
 
 name_projeto.innerHTML="Projects";
-textjl.innerHTML="Website made with HTML, CSS and </br> JavaScript. Graphic elements </br> created by me. </br> Link : <a style='text-decoration: none;' href='https://luizreactgithub.github.io/Jl_Tecnology' target='_blank'> https://luizreactgithub.github.io/Jl_Tecnology    </a>";
+textjl.innerHTML="Website made with HTML, CSS and </br> JavaScript. Graphic elements  created by me. Link : <a style='text-decoration: none;' href='https://luizreactgithub.github.io/Jl_Tecnology' target='_blank'> https://luizreactgithub.github.io/Jl_Tecnology    </a>";
 textdevel.innerHTML="Responsive website made with HTML, CSS and JavaScript. Graphic elements</br>edited and created by me. Link : <a style='text-decoration: none;' href='https://luizreactgithub.github.io/JL_Uxguitar/' target='_blank'> https://luizreactgithub.github.io/JL_Uxguitar/    </a> "
 textdevel2.innerHTML="Website made with HTML, CSS,</br> JavaScript and PHP. Graphic elements made by me. Link :<a style='text-decoration: none;' href='https://luizreactgithub.github.io/Jl-Developers/' target='_blank'> https://luizreactgithub.github.io/Jl-Developers/   </a> ";
 textsinal.innerHTML="An institutional website made with </br> wordpress, I worked with some plugins and I did all the design. Link:</br> <a style='text-decoration: none;' href='https://sinalfort.com.br/' target='_blank'> https://sinalfort.com.br/   </a>";
